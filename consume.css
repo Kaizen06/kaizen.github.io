@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    position: absolute;
+    background-color: #fff;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2f5b19ca-fded-4422-8db0-258c41701005/dgw9y8s-a018b1af-8f04-45c8-b63e-ea5ae16dd225.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJmNWIxOWNhLWZkZWQtNDQyMi04ZGIwLTI1OGM0MTcwMTAwNVwvZGd3OXk4cy1hMDE4YjFhZi04ZjA0LTQ1YzgtYjYzZS1lYTVhZTE2ZGQyMjUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.i0MvSabRU0vJZBXHkPuAVMaVki6geJSm2GXv-qOYCjs);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: right;
+    background-position-y: bottom;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 95px;
+    color: #989898e9;
+}
+.content a{
+    font-size: 24px;
+    text-decoration: none;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.content a:hover{
+    background-color: black;
+    color: azure;
+}
